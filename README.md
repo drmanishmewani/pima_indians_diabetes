@@ -80,7 +80,8 @@ Hence I focussed on getting 80% recall to catch at least 80% of diabetic patient
             - 33 False Positives
             - Strong non-parametric approach
 
-7. **Final selection** of most appropriate model for deployment
+7. **Final selection** of most appropriate model for deployment:
+      
       The study revealed that **Gradient Boosting** is the best model for diabetes screening as evident with the current dataset:
 
       **Balanced Accuracy: 75.7%** | Best overall performance |
