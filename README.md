@@ -94,16 +94,8 @@ Hence I focussed on getting 80% recall to catch at least 80% of diabetic patient
 
 # Insights:
 
-1. Ensemble methods dominated the current study 
-2. Class imbalance handling is crucial - Models without **class_weight='balanced'** performed worse
-3. Hyperparameter tuning matters - Improved performance across models
-4. Threshold optimization is essential to get the desired recall
-5. sklearn Gradient Boosting > XGBoost (possibly due to smaller dataset)
-
-
-
-
-**Balanced Performance**
-- 70% specificity (avoids excessive false alarms)
-- 59.5% precision (6 in 10 positive predictions correct)
-- Only 10 missed cases (18.5% false negative rate)
+- Ensemble methods dominated the current study 
+- Class imbalance handling is crucial - Models without **class_weight='balanced'** performed worse
+- Hyperparameter tuning matters - Improved performance across models
+- Threshold optimization is essential to get the desired recall
+- sklearn Gradient Boosting > XGBoost (possibly due to smaller dataset)
