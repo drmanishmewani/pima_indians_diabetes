@@ -65,6 +65,7 @@ Hence I focussed on getting 80% recall to catch at least 80% of diabetic patient
       **Model Performance Summary**
 
       **Rank @ 80% Recall (Clinical Target):**
+         
          1. Gradient Boosting: **75.7%** Balanced Accuracy
             - 30 False Positives (BEST)
             - 10 False Negatives
