@@ -1,11 +1,11 @@
 This project represents a **comprehensive machine learning study** to identify the best algorithm for diabetes screening.
 **10 different machine learning algorithms** from simple linear models to advanced ensemble methods were evaluated to find the optimal approach for early diabetes detection.
 
-**Early detection is crucial** - to prevents complications like heart disease, kidney failure, and blindness.
+**Early detection is crucial** - to prevents diabetes complications like heart disease, kidney failure, and blindness.
 Hence I focussed on getting 80% recall to catch at least 80% of diabetic patients (high sensitivity) while keeping false positives low.
 
 
-## Process
+# Process
 
 1. **Exploration** of the PIMA Indian Diabetes Dataset
       - Class imbalance (65% non-diabetic, 35% diabetic)
@@ -16,7 +16,7 @@ Hence I focussed on getting 80% recall to catch at least 80% of diabetic patient
       - Train-test split (80/20) with stratification
       - Standardized features using StandardScaler
       - Set random seed (42) for reproducibility
-      - I used the transformed data for tree based and ensemble models too for the sake of maintaining similarity and simplicity across models
+      - I used the transformed data for tree based and ensemble models too for the sake of maintaining similarity and simplicity of study across models
 
 
 3. **Testing** 10 different machine learning algorithms:
@@ -89,28 +89,20 @@ Hence I focussed on getting 80% recall to catch at least 80% of diabetic patient
       **False Positives: 30**  | Fewest unnecessary follow-ups |
       **False Negatives: 10** | Misses 10 hard-to-detect cases |
 
-      **This accomodates ADA guidelines (70-80% sensitivity target)** 
 
 
-### Key Insights
+# Insights:
 
 1. Ensemble methods dominated the current study 
 2. Class imbalance handling is crucial - Models without **class_weight='balanced'** performed worse
-3. Hyperparameter tuning matters - Improved performance  across models
+3. Hyperparameter tuning matters - Improved performance across models
 4. Threshold optimization is essential to get the desired recall
-5. sklearn Gradient Boosting > XGBoost on small datasets (768 samples)
+5. sklearn Gradient Boosting > XGBoost (possibly due to smaller dataset)
 
 
 
-### Clinical Validation
-
-**Exceeds ADA Guidelines**
-- ADA Target: 70-80% sensitivity
-- Our Model: 81.5% sensitivity
 
 **Balanced Performance**
 - 70% specificity (avoids excessive false alarms)
 - 59.5% precision (6 in 10 positive predictions correct)
 - Only 10 missed cases (18.5% false negative rate)
-
-
