@@ -1,9 +1,11 @@
-This project represents a **comprehensive machine learning study** to identify the best algorithm for diabetes screening.
-**10 different machine learning algorithms** from simple linear models to advanced ensemble methods were evaluated to find the optimal approach for early diabetes detection.
+This study represents a **comprehensive machine learning study** to identify the best algorithm for diabetes screening.
 
-**Early detection is crucial** - to prevents diabetes complications like heart disease, kidney failure, and blindness.
+- **10 different machine learning algorithms** from simple linear models to advanced ensemble methods were evaluated to find the optimal approach for early diabetes detection.
+
+- **Early detection is crucial** - to prevents diabetes complications like heart disease, kidney failure, and blindness.
 Hence I focussed on getting 80% recall to catch at least 80% of diabetic patients (high sensitivity) while keeping false positives low.
 
+- **Results could be tweaked** by setting the threshold according to the deployment requirements to get much higher sensitivity or specificity.
 
 # Process
 
@@ -20,6 +22,7 @@ Hence I focussed on getting 80% recall to catch at least 80% of diabetic patient
 
 
 3. **Testing** 10 different machine learning algorithms:
+
       **Linear Models** (3):
       - Ridge Regression
       - Lasso Regression
@@ -44,12 +47,14 @@ Hence I focussed on getting 80% recall to catch at least 80% of diabetic patient
 4. **Tuning hyperparameters** for each model
 
 5. **Optimize decision thresholds** for clinical requirements (higher sensitivity)
+
       For clinical deployment:
       - Generated precision-recall curves
       - Found optimal thresholds for 80% recall target
       - Evaluated performance at custom thresholds
 
-6. **Evaluate models** using multiple metrics
+6. **Evaluate models** using multiple metrics:
+
       **Primary Metric: Balanced Accuracy**
          - Handles class imbalance
          - Balances sensitivity and specificity
