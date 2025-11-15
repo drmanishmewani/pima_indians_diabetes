@@ -67,18 +67,18 @@ Hence I focussed on getting 80% recall to catch at least 80% of diabetic patient
       **Rank @ 80% Recall (Clinical Target):**
          
       1. Gradient Boosting: **75.7%** Balanced Accuracy
-      - 30 False Positives (BEST)
-      - 10 False Negatives
-      - 59.5% Precision (BEST)
-      - ROC AUC: 0.8224 (BEST)
+            - 30 False Positives (BEST)
+            - 10 False Negatives
+            - 59.5% Precision (BEST)
+            - ROC AUC: 0.8224 (BEST)
 
       2. Random Forest & AdaBoost: 74.7%
-      - 32 False Positives
-      - Tied for 2nd place
+            - 32 False Positives
+            - Tied for 2nd place
 
       3. KNN: 74.2%
-      - 33 False Positives
-      - Strong non-parametric approach
+            - 33 False Positives
+            - Strong non-parametric approach
 
 7. **Final selection** of most appropriate model for deployment
       The study revealed that **Gradient Boosting** is the best model for diabetes screening as evident with the current dataset:
