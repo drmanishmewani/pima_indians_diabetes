@@ -84,10 +84,15 @@ Hence I focussed on getting 80% recall to catch at least 80% of diabetic patient
       The study revealed that **Gradient Boosting** is the best model for diabetes screening as evident with the current dataset:
 
       **Balanced Accuracy: 75.7%** | Best overall performance |
+
       **Sensitivity (Recall): 81.5%** | Catches 44 out of 54 diabetics |
+      
       **Specificity: 70%** | Correctly identifies 70% of non-diabetics |
+      
       **Precision: 59.5%** | 6 out of 10 positive predictions are correct |
+      
       **False Positives: 30**  | Fewest unnecessary follow-ups |
+      
       **False Negatives: 10** | Misses 10 hard-to-detect cases |
 
 
